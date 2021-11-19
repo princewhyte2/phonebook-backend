@@ -29,7 +29,7 @@ let persons = [
 ]
 
 //configure morgan to stringyfy post requests body
-
+app.use(express.static('build'))
 app.use(express.json());
 app.use(cors());
 
